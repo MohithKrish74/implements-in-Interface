@@ -1,0 +1,37 @@
+package com.company;
+
+import com.sun.jdi.Value;
+import org.w3c.dom.ls.LSOutput;
+
+import java.security.spec.RSAOtherPrimeInfo;
+import java.util.*;
+interface A
+{
+    public void show();
+}
+class B implements A
+{
+    public void show()
+    {
+        System.out.println("This is interface using implements Keyword");
+    }
+}
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        B obj = new B();
+        obj.show();
+
+    }
+
+
+}
+
+
+
+
+
+
+
